@@ -14,13 +14,10 @@
     </head>
     <body>
 
-        <div class="row">
-            <div class="cell">
-                <?php
-                    $helper->AddSchemata();
-                ?>            
-            </div>
-        </div>
+        
+        <?php
+            $helper->AddSchemata();
+        ?>
 
     </body>
 </html>
